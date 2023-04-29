@@ -44,6 +44,10 @@
   font-weight: bold;
 }
 
+.single-product-image {
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .product > div:first-of-type {
     padding-right: 10px;

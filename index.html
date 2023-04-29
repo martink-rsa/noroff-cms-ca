@@ -16,36 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Oxanium:wght@500;700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Hotjar Tracking Code for HTML/CSS Project (GameHub) -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3421452, hjsv: 6 };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-PNSH80Z0ZW"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-PNSH80Z0ZW');
-    </script>
+    <script src="./scripts/index.js" defer type="module"></script>
   </head>
   <body>
     <div class="page-wrapper">
@@ -115,81 +86,22 @@
         </section>
         <main class="page-main">
           <h2 class="section-heading">
+            <span class="heading-white">OUR</span> FEATURED
+          </h2>
+          <div>
+            <div class="lds-dual-ring loading-spinner"></div>
+            <div class="error-message"></div>
+          </div>
+          <div id="product-featured-container" class="product-grid"></div>
+          <h2 class="section-heading">
             <span class="heading-white">OUR</span> BESTSELLERS
           </h2>
-          <div class="product-grid">
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
-            <div class="product-item">
-              <a href="./product.html">
-                <img src="./images/game-apex-legends.png" alt="Apex legends" />
-                <div class="product-content">
-                  <h3>Apex Legends</h3>
-                  <p>450 NOK</p>
-                </div>
-              </a>
-            </div>
+          <div>
+            <div class="lds-dual-ring loading-spinner"></div>
+            <div class="error-message"></div>
+          </div>
+          <div id="product-list-container" class="product-grid">
+            <!-- Content generated here -->
           </div>
         </main>
       </div>
